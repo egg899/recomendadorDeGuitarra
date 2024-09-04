@@ -1,0 +1,151 @@
+@import './base.css';
+
+body {
+  background-color: black !important;
+  background-image: url('https://wallpapers.com/images/hd/black-grunge-texture-tkngnas7ogiuwijv.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  color: white !important;
+  font-family: 'RocknRoll One', sans-serif !important;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+/* .container {
+  min-width: 1000px !important;
+} */
+
+.jumbotron {
+  margin-left: 17% !important;
+}
+.volver {
+  margin: 20px;
+}
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+.card {
+  padding: 10px;
+  margin: 10px;
+}
+
+.negro {
+  border: 1px solid black;
+}
+label {
+  margin-right: 5px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.articulos.card {
+  padding: 10px;
+  margin-bottom: 10vh;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: black solid 2px;
+  box-shadow: 20px 20px 50px 15px rgba(63, 63, 63, 0.7);
+}
+
+#infoPrincipal label {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-family: 'Rock Salt', cursive !important;
+  font-weight: 400;
+  font-style: normal;
+}
+[v-cloak] {
+  display: none;
+}
+
+.lavanda {
+  background-color: lavender;
+}
+
+.coral {
+  background-color: coral;
+}
+
+.grey-bg {
+  background: #2d2d30;
+  color: #bdbdbd;
+}
+
+.highlighted {
+  background-color: yellow;
+}
+h2 {
+  margin-bottom: 40px !important;
+}
+.medio {
+  margin-top: 50%;
+}
+form {
+  min-width: 200px;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+form button {
+  margin: 10px;
+}
+form input {
+  margin: 10px;
+}
+
+form div label {
+  margin: 10px;
+}
+.visible {
+  opacity: 1;
+
+  transition: all 0.5s ease-in-out !important;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.puaImg {
+  margin-right: 5px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    padding: 0 2rem;
+  }
+}
