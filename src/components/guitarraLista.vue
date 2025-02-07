@@ -15,7 +15,7 @@
           <h3>{{ guitarra.titulo }}</h3>
 
           <div>
-            <img class="card-img-top" :src="guitarra.img" :alt="guitarra.alt" width="300" />
+            <img class="card-img-top" :src= "'https://raw.githubusercontent.com/egg899/recomendadorDeGuitarra/refs/heads/main/'+ guitarra.img" :alt="guitarra.alt" width="300" />
 
             <br />
             <p class="card-text">{{ guitarra.texto }}</p>
